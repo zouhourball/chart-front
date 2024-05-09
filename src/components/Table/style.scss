@@ -1,0 +1,21 @@
+.table {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+
+        .cell{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0; 
+        border: 1px solid #ddd; 
+        flex-grow: 1;
+            input{
+                width: 100%;
+                padding: 0;
+                border: 0;
+                border-top: 1px solid #ddd;
+                box-sizing: border-box
+            }
+        }
+    }
+}

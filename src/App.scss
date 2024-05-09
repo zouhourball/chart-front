@@ -1,0 +1,21 @@
+.tabcontainer {
+  max-width: 100%;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  thead,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+  }
+}

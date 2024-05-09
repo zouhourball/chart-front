@@ -1,0 +1,24 @@
+$container-max-width: 1200px; 
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px; 
+  padding-left: 15px; 
+
+  @media (min-width: 576px) { // Extra small devices (phones)
+    max-width: 540px; 
+  }
+
+  @media (min-width: 768px) { //Small devices (tablets)
+    max-width: 720px; 
+  }
+
+  @media (min-width: 992px) { //Medium devices (small laptops and desktops)
+    max-width: 960px; 
+  }
+
+  @media (min-width: 1200px) { //Large devices (desktops)
+    max-width: $container-max-width; 
+  }
+}

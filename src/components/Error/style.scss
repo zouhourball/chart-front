@@ -1,0 +1,45 @@
+
+
+$error-modal-background: rgba(0, 0, 0, 0.5); 
+$error-modal-color: #fff; 
+$error-modal-border-radius: 8px; 
+$error-modal-padding: 20px; 
+$error-modal-width: 300px; 
+
+.layer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $error-modal-background;
+  color: $error-modal-color;
+  border-radius: $error-modal-border-radius;
+  padding: $error-modal-padding;
+  width: $error-modal-width;
+  text-align: center;
+  z-index: 1000;
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .close-button {
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken(#dc3545, 10%);
+    }
+  }
+}
